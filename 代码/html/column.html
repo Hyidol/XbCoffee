@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/me/jquery.min.js"></script>
+    <script src="../js/me/jquery.qrcode.min.js"></script>
+    <title>夏宝咖啡--栏目页</title>
+</head>
+
+<body>
+    <header>
+        <video id="v1" autoplay loop muted>
+            <source src="../video/mixkit-filling-a-white-cup-of-coffee-236.mp4" type="video/mp4"  />
+      </video>
+        <!-- 导航栏 -->
+        <nav class="navFix">
+            <ul>
+                <span>夏 宝 咖 啡</span>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="column.html" style="font-weight: bolder;">栏目页</a></li>
+                <li><a href="me.html">个人页</a></li>
+                <li><a href="login.html">登录页</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 主体 -->
+    <div class="main">
+        <div class="box">
+            <div class="m-left">
+                <div class="l-group">
+                    <div class="g-title">精选</div>
+                    <div class="g-content">
+                        <ul>
+                            <li><a href="type/type1.html" target="xb">了解我</a></li>
+                            <li><a href="type/type2.html" target="xb">小贴士</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="l-group">
+                    <div class="g-title">分类</div>
+                    <div class="g-content">
+                        <ul>
+                            <li><a href="type/type3.html" target="xb">历史与制作</a></li>
+                            <li><a href="type/type4.html" target="xb">品牌与分类</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="m-right">
+                <iframe src="type/type1.html" frameborder="0" name="xb" width="100%" height="100%"></iframe>
+            </div>
+        </div>
+    </div>
+    </div>
+
+     <!-- 版权 -->
+    <footer>
+        <div><a href="link.html">联系 / 友链 </a></div>
+        <div>Copyright © 2021.4 夏宝咖啡网站</div>
+    </footer>
+    <script src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 2000
+        });
+    </script>
+</body>
+
+</html>
